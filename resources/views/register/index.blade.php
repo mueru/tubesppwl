@@ -55,12 +55,7 @@
                         @enderror
                     </div>
 
-                    {{-- <div class="form-check text-start my-3">
-                        <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault">
-                        <label class="form-check-label" for="flexCheckDefault">
-                            Remember me
-                        </label>
-                    </div> --}}
+                
                     <button class="btn w-100 py-2 fs-5 text-white mt-3" style="background-color: #0d98ba"
                         type="submit">Register</button>
                     {{-- <p class="mt-5 mb-3 text-body-secondary">&copy; 2017–2024</p> --}}

@@ -77,9 +77,9 @@
                                 <h5 class="card-title">{{ $post->title }}</h5>
                                 <p>
                                     <small class="text-muted">
-                                        By. <a
-                                            href="/posts?author={{ $post->author->username }}">{{ $post->author->name }}</a>
-                                        {{ $post->category->name }}</a>
+                                        By. <a href="/posts?author={{ $post->author->username }}">{{ $post->author->name }}</a> in
+                                        <a href="/posts?category={{ $post->category->slug }}"
+                                            class="text-decoration-none">{{ $post->category->name }}</a>
                                         {{ $post->created_at->diffForHumans() }}
                                     </small>
                                 </p>
