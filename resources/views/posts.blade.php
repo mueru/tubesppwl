@@ -70,7 +70,7 @@
                                     class="img-fluid">
                             </div>
                             @else
-                                <img src="https://source.unsplash.com/500x400?{{ $post->category->name }}"
+                                <img src="https://source.unsplash.com/1200x400?{{ $post->category->name }}"
                                     class="card-img-top" alt="{{ $post->category->name }}">
                             @endif
                             <div class="card-body overflow-hidden">

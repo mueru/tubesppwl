@@ -12,7 +12,7 @@
                         class="text-decoration-none">{{ $post->category->name }}</p></a>
 
                         @if($post->image)
-                        <div style="max-height: 350px; overflow:scroll">
+                        <div style="max-height: 350px; overflow:hidden">
                             <img src="{{ asset('storage/' .$post->image) }}" alt="{{ $post->category->name }}"
                                 class="img-fluid">
                         </div>
@@ -29,4 +29,6 @@
             </div>
         </div>
     </div>
+    <hr>
+    <hr>
 @endsection

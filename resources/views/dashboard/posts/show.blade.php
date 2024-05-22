@@ -15,8 +15,8 @@
             </form> 
 
             @if($post->image)
-            <div style="max-height: 350px; overflow:scroll">
-                <img src="{{ asset('storage/' .$post->image) }}" alt="{{ $post->category->name }}"
+            <div style="max-height: 450px; overflow:hidden">
+                <img src="{{ asset('storagek/' .$post->image) }}" alt="{{ $post->category->name }}"
                     class="img-fluid mt-3">
             </div>
             @else
